@@ -1,8 +1,10 @@
 import requests
 import pandas as pd
+import json
+from math import radians, sin, cos, sqrt, atan2
 
-# OpenAQ API URL for countries
-COUNTRIES_API_URL = "https://api.openaq.org/v3/countries"
+# OpenAQ API URL for locations
+LOCATIONS_API_URL = "https://api.openaq.org/v3/locations"
 
 # Your OpenAQ API Key
 API_KEY = "129db180ca4d7cb90ff7ea6dfb5ee9156e43d344870f2c501297bf16b8906417"
@@ -11,89 +13,62 @@ API_KEY = "129db180ca4d7cb90ff7ea6dfb5ee9156e43d344870f2c501297bf16b8906417"
 headers = {"X-API-Key": API_KEY}
 
 
-def get_country_info(country_id=74):
+def haversine(lat1, lon1, lat2, lon2):
     """
-    Fetch information about a country from the OpenAQ API using its unique country id.
-    For Romania, the country id is assumed to be 74.
+    Calculate the great-circle distance between two points on Earth (in meters)
+    using the Haversine formula.
     """
-    url = f"{COUNTRIES_API_URL}/{country_id}"
-    response = requests.get(url, headers=headers)
+    R = 6371000  # Earth's radius in meters
+    phi1, phi2 = radians(lat1), radians(lat2)
+    delta_phi = radians(lat2 - lat1)
+    delta_lambda = radians(lon2 - lon1)
 
-    if response.status_code == 200:
-        data = response.json()
-        print("\nFull API Response JSON:")
-        print(data)
-
-        # The response payload contains a "results" key with a list of country objects.
-        if "results" in data and data["results"]:
-            df = pd.DataFrame(data["results"])
-            print("\nDataFrame Column Names:", df.columns)
-
-            # Display key fields: id, code, and name
-            available_columns = [col for col in ["id", "code", "name"] if col in df.columns]
-            if available_columns:
-                print("\nCountry information:")
-                print(df[available_columns])
-            else:
-                print("No expected columns found in API response.")
-            return df
-        else:
-            print("No country information found.")
-            return None
-    else:
-        print("Error fetching country info:", response.status_code, response.text)
-        return None
+    a = sin(delta_phi / 2) ** 2 + cos(phi1) * cos(phi2) * sin(delta_lambda / 2) ** 2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    return R * c
 
 
 def get_locations_near(lat, lon, radius=12000, limit=10):
-    """Fetch air quality locations near a given coordinate"""
-    url = f"https://api.openaq.org/v3/locations?coordinates={lon},{lat}&radius={radius}&limit={limit}"
-
+    """
+    Fetch air quality locations near a given coordinate using a point and radius query.
+    Computes the distance (in meters) from the starting coordinates for each location,
+    sorts the locations by distance, and saves the result as formatted JSON to a file.
+    """
+    url = f"{LOCATIONS_API_URL}?coordinates={lat},{lon}&radius={radius}&limit={limit}"
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
         data = response.json()["results"]
         df = pd.DataFrame(data)
 
-        print("\nFull API Response Keys:", df.columns)  # Print all column names in response
-        print(f"\nLocations near {lat}, {lon} (within {radius}m):")
+        # Compute the distance for each location using the Haversine formula.
+        df["distance"] = df["coordinates"].apply(
+            lambda coords: haversine(lat, lon, coords.get("latitude"), coords.get("longitude"))
+        )
 
-        # Instead of selecting fixed columns, let's dynamically adjust based on the response
-        possible_columns = ["id", "name", "city", "country", "location"]
-        available_columns = [col for col in possible_columns if col in df.columns]
+        # Sort the DataFrame by the computed distance.
+        df = df.sort_values("distance")
 
-        if available_columns:
-            print(df[available_columns])
-        else:
-            print("No expected columns found in API response.")
+        print(f"\nLocations near {lat}, {lon} (within {radius}m), sorted by distance:")
+        # Print all columns, including the computed distance.
+        print(df.to_string(index=False))
 
+        # Convert the DataFrame to a list of dictionaries.
+        results = df.to_dict(orient="records")
+
+        # Save the formatted JSON to a file.
+        json_filename = "get_near_locations.json"
+        with open(json_filename, "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+
+
+        print(f"Saved formatted JSON to '{json_filename}'")
         return df
     else:
         print("Error fetching locations near coordinates:", response.status_code, response.text)
         return None
 
 
-# Run function with example coordinates (Bucharest)
-get_locations_near(44.4268, 26.1025)
-
-
-def get_locations_in_bbox(bbox, limit=10):
-    """Fetch air quality locations inside a given bounding box"""
-    url = f"https://api.openaq.org/v3/locations?bbox={bbox}&limit={limit}"
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 200:
-        data = response.json()["results"]
-        df = pd.DataFrame(data)
-        print(f"\nLocations inside bounding box {bbox}:")
-        print(df[["id", "name", "city", "country"]])
-        return df
-    else:
-        print("Error fetching locations in bounding box:", response.status_code, response.text)
-        return None
-
-
 if __name__ == "__main__":
-    # For Romania, we use country_id=74
-    get_country_info(country_id=74)
+    # Example: Save formatted JSON for locations near Bucharest (44.4268, 26.1025)
+    get_locations_near(44.4268, 26.1025)

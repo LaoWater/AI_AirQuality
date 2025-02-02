@@ -43,5 +43,41 @@ def get_country_list():
         return None
 
 
+
+def get_country_info(country_id=74):
+    """
+    Fetch information about a country from the OpenAQ API using its unique country id.
+    For Romania, the country id is assumed to be 74.
+    """
+    url = f"{COUNTRIES_API_URL}/{country_id}"
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        print("\nFull API Response JSON:")
+        print(data)
+
+        # The response payload contains a "results" key with a list of country objects.
+        if "results" in data and data["results"]:
+            df = pd.DataFrame(data["results"])
+            print("\nDataFrame Column Names:", df.columns)
+
+            # Display key fields: id, code, and name
+            available_columns = [col for col in ["id", "code", "name"] if col in df.columns]
+            if available_columns:
+                print("\nCountry information:")
+                print(df[available_columns])
+            else:
+                print("No expected columns found in API response.")
+            return df
+        else:
+            print("No country information found.")
+            return None
+    else:
+        print("Error fetching country info:", response.status_code, response.text)
+        return None
+
+
+
 if __name__ == "__main__":
     get_country_list()

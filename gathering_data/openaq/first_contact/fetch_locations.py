@@ -2,12 +2,17 @@ import requests
 import pandas as pd
 import json
 from math import radians, sin, cos, sqrt, atan2
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# API Token from .env
+API_KEY = os.getenv("openaq_token")
 
 # OpenAQ API URL for locations
 LOCATIONS_API_URL = "https://api.openaq.org/v3/locations"
-
-# Your OpenAQ API Key
-API_KEY = "129db180ca4d7cb90ff7ea6dfb5ee9156e43d344870f2c501297bf16b8906417"
 
 # Headers required for authentication
 headers = {"X-API-Key": API_KEY}

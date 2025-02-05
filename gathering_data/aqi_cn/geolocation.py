@@ -1,7 +1,18 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-# API Token
-API_TOKEN = "630496d0e81893c90d499ecebb81ab66b12b91ed"
+# Load environment variables from .env file
+load_dotenv()
+
+# API Token from .env
+API_TOKEN = os.getenv("aqi_cn_token")
+
+# Ensure API_TOKEN is not None
+if not API_TOKEN:
+    raise ValueError("API token not found. Ensure 'aqi_cn_token' is set in the .env file.")
+
+CITY = "Cluj"
 
 # User's coordinates (home location)
 latitude = 46.765425

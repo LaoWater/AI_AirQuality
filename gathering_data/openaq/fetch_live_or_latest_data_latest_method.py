@@ -3,6 +3,14 @@ import json
 from datetime import datetime, timedelta, timezone
 from math import radians, sin, cos, sqrt, atan2
 import matplotlib.pyplot as plt
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# API Token from .env
+API_KEY = os.getenv("openaq_token")
 
 # -----------------------
 # Configuration and API URLs
@@ -10,7 +18,6 @@ import matplotlib.pyplot as plt
 BASE_URL = "https://api.openaq.org/v3"
 LOCATIONS_API_URL = f"{BASE_URL}/locations"
 MEASUREMENTS_API_URL = f"{BASE_URL}/sensors"  # We'll append /{sensor_id}/measurements
-API_KEY = "129db180ca4d7cb90ff7ea6dfb5ee9156e43d344870f2c501297bf16b8906417"
 headers = {"X-API-Key": API_KEY}
 
 

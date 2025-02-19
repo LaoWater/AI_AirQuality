@@ -1,0 +1,41 @@
+{
+  "location": {
+    "id": 2163127,
+    "name": "CJ-3",
+    "coordinates": {
+      "latitude": 46.765425,
+      "longitude": 23.550258
+    },
+    "sensors": [
+      {
+        "id": 11438933,
+        "name": "co µg/m³"
+      },
+      {
+        "id": 9020849,
+        "name": "no2 µg/m³"
+      },
+      {
+        "id": 9020848,
+        "name": "o3 µg/m³"
+      },
+      {
+        "id": 7774317,
+        "name": "pm10 µg/m³"
+      },
+      {
+        "id": 7773481,
+        "name": "pm25 µg/m³"
+      },
+      {
+        "id": 7774375,
+        "name": "so2 µg/m³"
+      }
+    ]
+  },
+  "date_range": {
+    "date_from": "2025-02-01T00:00:00Z",
+    "date_to": "2025-02-02T00:00:00Z"
+  },
+  "sensor_measurements": []
+}

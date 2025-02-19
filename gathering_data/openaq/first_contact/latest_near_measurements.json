@@ -1,0 +1,1992 @@
+[
+  {
+    "location_id": 10789,
+    "name": "RO0070A",
+    "locality": "Bucureşti",
+    "distance": 1476.2476015005323,
+    "coordinates": {
+      "latitude": 44.4289183724066,
+      "longitude": 26.1208525055138
+    },
+    "sensors": [
+      {
+        "id": 7573835,
+        "name": "co µg/m³",
+        "parameter": {
+          "id": 4,
+          "name": "co",
+          "units": "µg/m³",
+          "displayName": "CO mass"
+        },
+        "latest_measurement": {
+          "value": 33.83874,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-12-21T12:00:00Z",
+              "local": "2023-12-21T14:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-12-21T13:00:00Z",
+              "local": "2023-12-21T15:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-12-21T12:00:00Z",
+              "local": "2023-12-21T14:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-12-21T13:00:00Z",
+              "local": "2023-12-21T15:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-12-21T13:00:00+00:00",
+        "measurement_age_minutes": 588330.5637133166
+      },
+      {
+        "id": 1320337,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 21.99172111,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.5752703168
+      },
+      {
+        "id": 36042,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 26.57020919,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.5672879163
+      }
+    ]
+  },
+  {
+    "location_id": 9358,
+    "name": "RO0067A",
+    "locality": "Bucureşti",
+    "distance": 4152.564926580754,
+    "coordinates": {
+      "latitude": 44.4405559994632,
+      "longitude": 26.151122
+    },
+    "sensors": [
+      {
+        "id": 6310371,
+        "name": "co µg/m³",
+        "parameter": {
+          "id": 4,
+          "name": "co",
+          "units": "µg/m³",
+          "displayName": "CO mass"
+        },
+        "latest_measurement": {
+          "value": 512.2577299999999,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-15T13:00:00Z",
+              "local": "2023-06-15T16:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-15T14:00:00Z",
+              "local": "2023-06-15T17:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-15T13:00:00Z",
+              "local": "2023-06-15T16:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-15T14:00:00Z",
+              "local": "2023-06-15T17:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-15T14:00:00+00:00",
+        "measurement_age_minutes": 860430.5840899333
+      },
+      {
+        "id": 1320338,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 20.80570972,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.5960053331
+      },
+      {
+        "id": 28581,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 26.92402833,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.58807825
+      }
+    ]
+  },
+  {
+    "location_id": 9360,
+    "name": "RO0069A",
+    "locality": "Bucureşti",
+    "distance": 4331.523433996569,
+    "coordinates": {
+      "latitude": 44.4116669994632,
+      "longitude": 26.052244
+    },
+    "sensors": [
+      {
+        "id": 6310378,
+        "name": "co µg/m³",
+        "parameter": {
+          "id": 4,
+          "name": "co",
+          "units": "µg/m³",
+          "displayName": "CO mass"
+        },
+        "latest_measurement": {
+          "value": 391.97366999999997,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.5995900166
+      },
+      {
+        "id": 6310353,
+        "name": "so2 µg/m³",
+        "parameter": {
+          "id": 6,
+          "name": "so2",
+          "units": "µg/m³",
+          "displayName": "SO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 2.12709066,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.6186808166
+      },
+      {
+        "id": 1320335,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 15.31800777,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.6149372167
+      },
+      {
+        "id": 28584,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 14.11186384,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.6033006
+      },
+      {
+        "id": 28585,
+        "name": "o3 µg/m³",
+        "parameter": {
+          "id": 3,
+          "name": "o3",
+          "units": "µg/m³",
+          "displayName": "O₃ mass"
+        },
+        "latest_measurement": {
+          "value": 56.747425,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.6112186667
+      }
+    ]
+  },
+  {
+    "location_id": 10784,
+    "name": "RO0068A",
+    "locality": "Bucureşti",
+    "distance": 5013.435148144746,
+    "coordinates": {
+      "latitude": 44.395807371193,
+      "longitude": 26.1483409532079
+    },
+    "sensors": [
+      {
+        "id": 6310377,
+        "name": "so2 µg/m³",
+        "parameter": {
+          "id": 6,
+          "name": "so2",
+          "units": "µg/m³",
+          "displayName": "SO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 6.3004399,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T18:00:00Z",
+              "local": "2023-06-14T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T18:00:00Z",
+              "local": "2023-06-14T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T18:00:00+00:00",
+        "measurement_age_minutes": 861630.6302397499
+      },
+      {
+        "id": 1320339,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 17.14642111,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.6265089
+      },
+      {
+        "id": 36036,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 13.60465916,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.6223330665
+      }
+    ]
+  },
+  {
+    "location_id": 10779,
+    "name": "RO0065A",
+    "locality": "Bucureşti",
+    "distance": 5678.044942078004,
+    "coordinates": {
+      "latitude": 44.4470701280555,
+      "longitude": 26.0368600264486
+    },
+    "sensors": [
+      {
+        "id": 6310373,
+        "name": "co µg/m³",
+        "parameter": {
+          "id": 4,
+          "name": "co",
+          "units": "µg/m³",
+          "displayName": "CO mass"
+        },
+        "latest_measurement": {
+          "value": 424.17476,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.63391405
+      },
+      {
+        "id": 6310364,
+        "name": "so2 µg/m³",
+        "parameter": {
+          "id": 6,
+          "name": "so2",
+          "units": "µg/m³",
+          "displayName": "SO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 2.77802093,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.6532333333
+      },
+      {
+        "id": 1320336,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 23.4538559,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.64510455
+      },
+      {
+        "id": 1320332,
+        "name": "pm25 µg/m³",
+        "parameter": {
+          "id": 2,
+          "name": "pm25",
+          "units": "µg/m³",
+          "displayName": "PM2.5"
+        },
+        "latest_measurement": {
+          "value": 8.08921897,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.6491687668
+      },
+      {
+        "id": 36014,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 14.11507498,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.637393517
+      },
+      {
+        "id": 36016,
+        "name": "o3 µg/m³",
+        "parameter": {
+          "id": 3,
+          "name": "o3",
+          "units": "µg/m³",
+          "displayName": "O₃ mass"
+        },
+        "latest_measurement": {
+          "value": 59.12480444,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.641364083
+      }
+    ]
+  },
+  {
+    "location_id": 10781,
+    "name": "RO0066A",
+    "locality": "Bucureşti",
+    "distance": 6759.979875007566,
+    "coordinates": {
+      "latitude": 44.4110818288512,
+      "longitude": 26.1847227222147
+    },
+    "sensors": [
+      {
+        "id": 6310350,
+        "name": "co µg/m³",
+        "parameter": {
+          "id": 4,
+          "name": "co",
+          "units": "µg/m³",
+          "displayName": "CO mass"
+        },
+        "latest_measurement": {
+          "value": 267.81799,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.657145
+      },
+      {
+        "id": 6310358,
+        "name": "so2 µg/m³",
+        "parameter": {
+          "id": 6,
+          "name": "so2",
+          "units": "µg/m³",
+          "displayName": "SO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 5.01298791,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.6684130167
+      },
+      {
+        "id": 1320334,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 18.50798222,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.66474105
+      },
+      {
+        "id": 36020,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 16.31155627,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.6608983832
+      }
+    ]
+  },
+  {
+    "location_id": 2163070,
+    "name": "B-26",
+    "locality": "BUCURESTI",
+    "distance": 8666.454405795395,
+    "coordinates": {
+      "latitude": 44.50000000024475,
+      "longitude": 26.13999999967507
+    },
+    "sensors": [
+      {
+        "id": 7775737,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 28.54419444,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2024-01-28T23:00:00+00:00",
+        "measurement_age_minutes": 533010.6719829333
+      }
+    ]
+  },
+  {
+    "location_id": 2163066,
+    "name": "B-10",
+    "locality": "CHIAJNA",
+    "distance": 9889.77656551889,
+    "coordinates": {
+      "latitude": 44.46027499972366,
+      "longitude": 25.987083000336547
+    },
+    "sensors": [
+      {
+        "id": 7775035,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 15.95808108,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2024-01-28T23:00:00+00:00",
+        "measurement_age_minutes": 533010.6757453167
+      },
+      {
+        "id": 7773262,
+        "name": "pm25 µg/m³",
+        "parameter": {
+          "id": 2,
+          "name": "pm25",
+          "units": "µg/m³",
+          "displayName": "PM2.5"
+        },
+        "latest_measurement": {
+          "value": 14.26508867,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2024-01-28T23:00:00+00:00",
+        "measurement_age_minutes": 533010.6795298833
+      }
+    ]
+  },
+  {
+    "location_id": 9361,
+    "name": "RO0071A",
+    "locality": "Ilfov",
+    "distance": 10249.17869367577,
+    "coordinates": {
+      "latitude": 44.3488680301443,
+      "longitude": 26.0336260914258
+    },
+    "sensors": [
+      {
+        "id": 6310375,
+        "name": "so2 µg/m³",
+        "parameter": {
+          "id": 6,
+          "name": "so2",
+          "units": "µg/m³",
+          "displayName": "SO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 3.9901216,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2023-06-14T16:00:00Z",
+              "local": "2023-06-14T19:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2023-06-14T17:00:00Z",
+              "local": "2023-06-14T20:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2023-06-14T17:00:00+00:00",
+        "measurement_age_minutes": 861690.6986639
+      },
+      {
+        "id": 1320341,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 17.19115989,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.6909062667
+      },
+      {
+        "id": 1320340,
+        "name": "pm25 µg/m³",
+        "parameter": {
+          "id": 2,
+          "name": "pm25",
+          "units": "µg/m³",
+          "displayName": "PM2.5"
+        },
+        "latest_measurement": {
+          "value": 8.75098811,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2021-07-06T11:00:00Z",
+              "local": "2021-07-06T14:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2021-07-06T12:00:00Z",
+              "local": "2021-07-06T15:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2021-07-06T12:00:00+00:00",
+        "measurement_age_minutes": 1881510.69492565
+      },
+      {
+        "id": 28586,
+        "name": "no2 µg/m³",
+        "parameter": {
+          "id": 5,
+          "name": "no2",
+          "units": "µg/m³",
+          "displayName": "NO₂ mass"
+        },
+        "latest_measurement": {
+          "value": 14.08202667,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.6833779
+      },
+      {
+        "id": 28587,
+        "name": "o3 µg/m³",
+        "parameter": {
+          "id": 3,
+          "name": "o3",
+          "units": "µg/m³",
+          "displayName": "O₃ mass"
+        },
+        "latest_measurement": {
+          "value": 43.76419055,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2020-04-20T17:00:00Z",
+              "local": "2020-04-20T20:00:00+03:00"
+            },
+            "datetimeTo": {
+              "utc": "2020-04-20T18:00:00Z",
+              "local": "2020-04-20T21:00:00+03:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2020-04-20T18:00:00+00:00",
+        "measurement_age_minutes": 2517630.687050817
+      }
+    ]
+  },
+  {
+    "location_id": 2163065,
+    "name": "B-11",
+    "locality": "BRAGADIRU",
+    "distance": 11823.258316910542,
+    "coordinates": {
+      "latitude": 44.3706359998788,
+      "longitude": 25.976136000028546
+    },
+    "sensors": [
+      {
+        "id": 7775093,
+        "name": "pm10 µg/m³",
+        "parameter": {
+          "id": 1,
+          "name": "pm10",
+          "units": "µg/m³",
+          "displayName": "PM10"
+        },
+        "latest_measurement": {
+          "value": 19.03877777,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2024-01-28T23:00:00+00:00",
+        "measurement_age_minutes": 533010.7063961667
+      },
+      {
+        "id": 7774996,
+        "name": "pm25 µg/m³",
+        "parameter": {
+          "id": 2,
+          "name": "pm25",
+          "units": "µg/m³",
+          "displayName": "PM2.5"
+        },
+        "latest_measurement": {
+          "value": 16.58705555,
+          "flagInfo": {
+            "hasFlags": false
+          },
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": null
+          },
+          "period": {
+            "label": "raw",
+            "interval": "01:00:00",
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          },
+          "coordinates": null,
+          "summary": null,
+          "coverage": {
+            "expectedCount": 1,
+            "expectedInterval": "01:00:00",
+            "observedCount": 1,
+            "observedInterval": "01:00:00",
+            "percentComplete": 100.0,
+            "percentCoverage": 100.0,
+            "datetimeFrom": {
+              "utc": "2024-01-28T22:00:00Z",
+              "local": "2024-01-29T00:00:00+02:00"
+            },
+            "datetimeTo": {
+              "utc": "2024-01-28T23:00:00Z",
+              "local": "2024-01-29T01:00:00+02:00"
+            }
+          }
+        },
+        "is_live": false,
+        "measurement_time": "2024-01-28T23:00:00+00:00",
+        "measurement_age_minutes": 533010.71002405
+      }
+    ]
+  }
+]

@@ -20,10 +20,10 @@ longitude = 23.550258
 geo_url = f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN}"
 
 # Expanding the boundary (increase from 0.1 to 0.5 for a wider area)
-lat_min = latitude - 2
-lat_max = latitude + 2
-lng_min = longitude - 2
-lng_max = longitude + 2
+lat_min = latitude - 0.1
+lat_max = latitude + 0.1
+lng_min = longitude - 0.1
+lng_max = longitude + 0.1
 map_url = f"https://api.waqi.info/map/bounds?token={API_TOKEN}&latlng={lat_min},{lng_min},{lat_max},{lng_max}"
 
 # Making API requests
@@ -34,12 +34,24 @@ map_response = requests.get(map_url)
 geo_data = geo_response.json() if geo_response.status_code == 200 else None
 map_data = map_response.json() if map_response.status_code == 200 else None
 
-# Pretty print the API responses
+import json
+
+# Pretty print the API responses to the console
 print("\n===== Geolocated Air Quality Data =====")
 print(json.dumps(geo_data, indent=4))
 
 print("\n===== Air Quality Stations in Area =====")
 print(json.dumps(map_data, indent=4))
+
+# Save the Geolocated Air Quality Data to a JSON file
+with open("geo_data.json", "w") as geo_file:
+    json.dump(geo_data, geo_file, indent=4)
+print("Geolocated Air Quality Data saved to geo_data.json")
+
+# Save the Air Quality Stations data to a JSON file
+with open("map_data.json", "w") as map_file:
+    json.dump(map_data, map_file, indent=4)
+print("Air Quality Stations data saved to map_data.json")
 
 # ----------------------------
 # Plotting Forecast Data for PM10

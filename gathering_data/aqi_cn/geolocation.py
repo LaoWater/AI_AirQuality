@@ -20,10 +20,10 @@ longitude = 23.550258
 geo_url = f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN}"
 
 # Expanding the boundary (increase from 0.1 to 0.5 for a wider area)
-lat_min = latitude - 0.1
-lat_max = latitude + 0.1
-lng_min = longitude - 0.1
-lng_max = longitude + 0.1
+lat_min = latitude - 0.3
+lat_max = latitude + 0.3
+lng_min = longitude - 0.3
+lng_max = longitude + 0.3
 map_url = f"https://api.waqi.info/map/bounds?token={API_TOKEN}&latlng={lat_min},{lng_min},{lat_max},{lng_max}"
 
 # Making API requests

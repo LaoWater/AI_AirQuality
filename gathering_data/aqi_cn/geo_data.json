@@ -1,0 +1,183 @@
+{
+    "status": "ok",
+    "data": {
+        "aqi": 32,
+        "idx": 7659,
+        "attributions": [
+            {
+                "url": "http://www.calitateaer.ro/",
+                "name": "ANPM - Agen\u0163iei Na\u0163ionale pentru Protec\u0163ia Mediului (Romanian National Environmental Protection Agency)",
+                "logo": "Romania.ANPM.png"
+            },
+            {
+                "url": "https://waqi.info/",
+                "name": "World Air Quality Index Project"
+            }
+        ],
+        "city": {
+            "geo": [
+                46.7817793,
+                23.626916
+            ],
+            "name": "Str. Dambovitei, Cluj-Napoca, Romania",
+            "url": "https://aqicn.org/city/romania/cluj/cluj-napoca/str.-dambovitei",
+            "location": ""
+        },
+        "dominentpol": "pm10",
+        "iaqi": {
+            "dew": {
+                "v": -13.2
+            },
+            "h": {
+                "v": 68.8
+            },
+            "no2": {
+                "v": 14.2
+            },
+            "p": {
+                "v": 984.2
+            },
+            "pm10": {
+                "v": 32
+            },
+            "r": {
+                "v": 99
+            },
+            "t": {
+                "v": -8.5
+            },
+            "w": {
+                "v": 2
+            }
+        },
+        "time": {
+            "s": "2025-02-21 03:00:00",
+            "tz": "+02:00",
+            "v": 1740106800,
+            "iso": "2025-02-21T03:00:00+02:00"
+        },
+        "forecast": {
+            "daily": {
+                "o3": [
+                    {
+                        "avg": 12,
+                        "day": "2025-02-19",
+                        "max": 18,
+                        "min": 8
+                    },
+                    {
+                        "avg": 9,
+                        "day": "2025-02-20",
+                        "max": 17,
+                        "min": 6
+                    },
+                    {
+                        "avg": 7,
+                        "day": "2025-02-21",
+                        "max": 14,
+                        "min": 4
+                    },
+                    {
+                        "avg": 7,
+                        "day": "2025-02-22",
+                        "max": 8,
+                        "min": 7
+                    }
+                ],
+                "pm10": [
+                    {
+                        "avg": 26,
+                        "day": "2025-02-19",
+                        "max": 38,
+                        "min": 9
+                    },
+                    {
+                        "avg": 38,
+                        "day": "2025-02-20",
+                        "max": 53,
+                        "min": 10
+                    },
+                    {
+                        "avg": 39,
+                        "day": "2025-02-21",
+                        "max": 48,
+                        "min": 16
+                    },
+                    {
+                        "avg": 43,
+                        "day": "2025-02-22",
+                        "max": 43,
+                        "min": 40
+                    }
+                ],
+                "pm25": [
+                    {
+                        "avg": 80,
+                        "day": "2025-02-19",
+                        "max": 110,
+                        "min": 34
+                    },
+                    {
+                        "avg": 109,
+                        "day": "2025-02-20",
+                        "max": 151,
+                        "min": 39
+                    },
+                    {
+                        "avg": 112,
+                        "day": "2025-02-21",
+                        "max": 137,
+                        "min": 56
+                    },
+                    {
+                        "avg": 121,
+                        "day": "2025-02-22",
+                        "max": 121,
+                        "min": 114
+                    }
+                ],
+                "uvi": [
+                    {
+                        "avg": 0,
+                        "day": "2025-02-20",
+                        "max": 1,
+                        "min": 0
+                    },
+                    {
+                        "avg": 0,
+                        "day": "2025-02-21",
+                        "max": 2,
+                        "min": 0
+                    },
+                    {
+                        "avg": 0,
+                        "day": "2025-02-22",
+                        "max": 2,
+                        "min": 0
+                    },
+                    {
+                        "avg": 0,
+                        "day": "2025-02-23",
+                        "max": 2,
+                        "min": 0
+                    },
+                    {
+                        "avg": 0,
+                        "day": "2025-02-24",
+                        "max": 2,
+                        "min": 0
+                    },
+                    {
+                        "avg": 1,
+                        "day": "2025-02-25",
+                        "max": 2,
+                        "min": 0
+                    }
+                ]
+            }
+        },
+        "debug": {
+            "sync": "2025-02-21T10:48:58+09:00"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "lat": 46.7817793,
+            "lon": 23.626916,
+            "uid": 7659,
+            "aqi": "32",
+            "station": {
+                "name": "Str. Dambovitei, Cluj-Napoca, Romania",
+                "time": "2025-02-21T10:00:00+09:00"
+            }
+        }
+    ]
+}

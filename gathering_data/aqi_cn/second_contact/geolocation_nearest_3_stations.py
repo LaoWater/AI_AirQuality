@@ -1,3 +1,7 @@
+# Oh my god, we got it working dude - after so  much trouble with this complex real time API
+# And oh man, the data is so beautiful. Extraordinary beautiful.
+
+
 import os
 from dotenv import load_dotenv
 import requests
@@ -24,7 +28,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     return R * c
 
 
-def get_nearest_aqi_points(latitude, longitude, token, num_points=3, initial_radius_km=10, step_km=10):
+def get_nearest_aqi_points(latitude, longitude, token, num_points=10, initial_radius_km=10, step_km=10):
     """
     Expands the search in a circular area until at least `num_points` are found.
     The search starts with an initial radius (in km) and expands by `step_km` increments.

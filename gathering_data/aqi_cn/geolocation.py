@@ -13,8 +13,8 @@ if not API_TOKEN:
     raise ValueError("API token not found. Ensure 'aqi_cn_token' is set in the .env file.")
 
 # User's coordinates (home location)
-latitude = 46.765425
-longitude = 23.550258
+latitude = 46.7445701195037
+longitude = 23.49587497922032
 
 # API URLs
 geo_url = f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN}"
